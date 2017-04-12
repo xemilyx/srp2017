@@ -30,6 +30,7 @@
         <![endif]-->
 
         {% block header %}{% endblock header %}
+
     </head>
     <body>
       <div class="container">
@@ -43,7 +44,15 @@
           </nav>
           <h3 class="text-muted">Summer Reading 2017</h3>
         </div>
+
         {% block content %}{% endblock content %}
+
+        <footer class="footer">
+          <p>&copy; 2017 Cranston Public Library</p>
+        </footer>
+
         {% block footer %}{% endblock footer %}
+
+      </div> <!-- /container -->
     </body>
 </html>
